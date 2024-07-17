@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "webmattic_com2",
+    "id": "669610a841fbf823d872b151",
+    "framework": "react-nextjs",
+    "typescript": false,
+    "styling": "Tailwind",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "d:\\react-webmattic\\src\\components",
+    "screensPath": "d:\\react-webmattic\\src\\pages"
+  }
+}
