@@ -8,6 +8,7 @@ const Guarantee = ({ className = "" }) => {
     <div
       className={`w-full !m-[0] absolute top-[8782px] left-[0px] flex flex-row items-start justify-start max-w-full h-auto gap-[0px] [transform:rotate(0deg)] text-left text-base text-slate-700 font-paragraph-minus-1 hover:flex hover:w-full hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full ${className}`}
     >
+
       <img
         className="h-[605.7px] w-[503.4px] absolute !m-[0] top-[618px] right-[-149.4px] bg-mistyrose flex [filter:blur(300px)] z-[1] hover:bg-mistyrose hover:flex hover:w-[503.4px] hover:h-[605.7px] hover:[filter:blur(300px)]"
         alt=""
@@ -18,12 +19,22 @@ const Guarantee = ({ className = "" }) => {
         alt=""
         src="/guarantee-item1.svg"
       />
+       
       <div className="h-[2211px] flex-1 [background:linear-gradient(180deg,_rgba(255,_248,_223,_0),_rgba(255,_255,_255,_0.2)),_#fefdf8] flex flex-col items-end justify-start pt-[421px] px-[69px] pb-0 box-border relative max-w-full gap-[0px] [transform:rotate(0deg)] hover:[background:linear-gradient(180deg,_rgba(255,_248,_223,_0),_rgba(255,_255,_255,_0.2)),_#fefdf8] hover:flex hover:flex-1 hover:h-[2211px] hover:flex-col hover:gap-[0px] hover:items-end hover:justify-start hover:[transform:rotate(0deg)] hover:pt-[421px] hover:px-[69px] hover:pb-0 hover:box-border hover:max-w-full mq800:h-auto mq1325:pl-[34px] mq1325:pr-[34px] mq1325:box-border">
         <img
           className="w-[83px] h-[43px] absolute !m-[0] top-[-8px] left-[714px] object-contain bg-milk-light flex z-[6] hover:bg-milk-light hover:flex hover:w-[83px] hover:h-[43px]"
           alt=""
           src="/guarantee-shape.svg"
         />
+        {/* <div>
+          <div className=" !m-[0] right-[652px] bottom-[721px] text-lgi font-semibold flex w-auto [align-self:unset] h-auto z-[5] hover:font-semibold hover:font-paragraph-minus-1 hover:text-lgi hover:text-left hover:text-slate-700 hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto">
+            WHY WORK WITH US?
+          </div>
+          <div className=" !m-[0] bottom-[650px] left-[calc(50%_-_290px)] text-21xl font-extrabold flex w-auto [align-self:unset] h-auto z-[5] hover:font-extrabold hover:font-paragraph-minus-1 hover:text-21xl hover:text-left hover:text-slate-700 hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto mq800:text-13xl mq450:text-5xl">
+            So, Why Choose Webmattic?
+          </div>
+        </div> */}
+       
         <div className="w-[815px] !m-[0] absolute top-[471px] left-[349px] flex flex-row items-start justify-start max-w-full h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-[815px] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full">
           <div className="h-[713px] w-[978.8000000000002px] absolute !m-[0] top-[-461px] right-[-217.8px] flex gap-[0px] items-start justify-start [transform:rotate(0deg)] hover:flex hover:w-[978.8000000000002px] hover:h-[713px] hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)]">
             <img
@@ -33,7 +44,8 @@ const Guarantee = ({ className = "" }) => {
             />
             <div className="absolute h-[713px] top-[0px] bottom-[0px] left-[0px] [filter:blur(300px)] rounded-[50%] bg-mediumvioletred-200 w-[713px] flex z-[4] hover:bg-mediumvioletred-200 hover:flex hover:w-[713px] hover:h-[713px] hover:[filter:blur(300px)]" />
           </div>
-          <div className="flex-1 relative leading-[24px] flex max-w-full h-auto z-[5] hover:text-base hover:leading-[24px] hover:text-left hover:text-slate-700 hover:flex hover:flex-1 hover:h-auto hover:max-w-full">
+
+          <div className="relative leading-[24px]  max-w-full h-auto z-[5] hover:text-base hover:leading-[24px] hover:text-left hover:text-slate-700  hover:h-auto hover:max-w-full">
             <span>{` `}</span>
             <b className="[text-decoration:underline]">
               We don’t believe in templated responses
@@ -60,6 +72,12 @@ const Guarantee = ({ className = "" }) => {
         <div className="w-[1285.4px] flex flex-col items-start justify-start pt-0 px-0 pb-[134.29999999999927px] box-border relative gap-[68px] max-w-full shrink-0 h-auto [transform:rotate(0deg)] hover:flex hover:w-[1285.4px] hover:h-auto hover:flex-col hover:gap-[68px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:pt-0 hover:px-0 hover:pb-[134.29999999999927px] hover:box-border hover:max-w-full hover:shrink-0 mq800:gap-[34px] mq450:gap-[17px]">
           <div className="w-[1088px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-[1088px] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-center hover:[transform:rotate(0deg)] hover:py-0 hover:px-5 hover:box-border hover:max-w-full">
             <div className="w-[926px] flex flex-col items-start justify-start gap-[19.199999999999815px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:w-[926px] hover:h-auto hover:flex-col hover:gap-[19.199999999999815px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full">
+              {/* <div className="absolute !m-[0] right-[652px] bottom-[721px] text-lgi font-semibold flex w-auto [align-self:unset] h-auto z-[5] hover:font-semibold hover:font-paragraph-minus-1 hover:text-lgi hover:text-left hover:text-slate-700 hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto">
+                WHY WORK WITH US?
+              </div>
+              <div className="absolute !m-[0] bottom-[650px] left-[calc(50%_-_290px)] text-21xl font-extrabold flex w-auto [align-self:unset] h-auto z-[5] hover:font-extrabold hover:font-paragraph-minus-1 hover:text-21xl hover:text-left hover:text-slate-700 hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto mq800:text-13xl mq450:text-5xl">
+                So, Why Choose Webmattic?
+              </div> */}
               <div className="self-stretch flex flex-row items-start justify-end max-w-full w-auto h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:self-stretch hover:w-auto hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-end hover:[transform:rotate(0deg)] hover:max-w-full">
                 <div className="w-[815px] relative leading-[24px] flex shrink-0 max-w-full h-auto z-[5] hover:text-base hover:leading-[24px] hover:text-left hover:text-slate-700 hover:flex hover:w-[815px] hover:h-auto hover:max-w-full">
                   <p className="m-0">
@@ -70,12 +88,13 @@ const Guarantee = ({ className = "" }) => {
                 </div>
               </div>
               <div className="w-[805.8px] flex flex-col items-start justify-start pt-[73px] px-[110px] pb-[42.60000000000037px] box-border relative gap-[170px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:w-[805.8px] hover:h-auto hover:flex-col hover:gap-[170px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:pt-[73px] hover:px-[110px] hover:pb-[42.60000000000037px] hover:box-border hover:max-w-full mq1125:gap-[85px] mq1125:pl-[55px] mq1125:pr-[55px] mq1125:box-border mq450:gap-[42px] mq450:pl-5 mq450:pr-5 mq450:box-border">
-                <div className="w-[482px] flex flex-col items-start justify-start gap-[32px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:w-[482px] hover:h-auto hover:flex-col hover:gap-[32px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full mq800:gap-[16px]">
-                  <div className="flex flex-row items-start justify-start py-0 px-px box-border w-auto [align-self:unset] h-auto gap-[0px] [transform:rotate(0deg)] text-lgi hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:py-0 hover:px-px hover:box-border">
-                    <div className="relative font-semibold flex w-auto [align-self:unset] h-auto z-[5] hover:font-semibold hover:font-paragraph-minus-1 hover:text-lgi hover:text-left hover:text-slate-700 hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto">
-                      Critical Reasons To Work With Us
-                    </div>
+                <div className="flex flex-row items-start justify-start py-0 px-px box-border w-auto [align-self:unset] h-auto gap-[0px] [transform:rotate(0deg)] text-lgi hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:py-0 hover:px-px hover:box-border">
+                  <div className="relative font-semibold flex w-auto [align-self:unset] h-auto z-[5] hover:font-semibold hover:font-paragraph-minus-1 hover:text-lgi hover:text-left hover:text-slate-700 hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto">
+                    Critical Reasons To Work With Us
                   </div>
+                </div>
+                <div className="w-[482px] flex flex-col items-start justify-start gap-[32px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:w-[482px] hover:h-auto hover:flex-col hover:gap-[32px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full mq800:gap-[16px]">
+
                   <div className="w-[458px] flex flex-row items-start justify-start pt-0 px-px pb-[9px] box-border max-w-full h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-[458px] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:pt-0 hover:px-px hover:pb-[9px] hover:box-border hover:max-w-full">
                     <div className="flex-1 flex flex-col items-start justify-start gap-[14px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:flex-1 hover:h-auto hover:flex-col hover:gap-[14px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full">
                       <div className="self-stretch flex flex-row items-start justify-start gap-[19px] max-w-full w-auto h-auto [transform:rotate(0deg)] hover:flex hover:self-stretch hover:w-auto hover:h-auto hover:flex-row hover:gap-[19px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full">
@@ -96,6 +115,8 @@ const Guarantee = ({ className = "" }) => {
                       </div>
                     </div>
                   </div>
+
+                  {/* com2 */}
                   <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[20px] max-w-full w-auto h-auto [transform:rotate(0deg)] hover:flex hover:self-stretch hover:w-auto hover:h-auto hover:flex-row hover:flex-wrap hover:gap-[20px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full">
                     <div className="flex flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border w-auto [align-self:unset] h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:flex-col hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:pt-[3px] hover:px-0 hover:pb-0 hover:box-border">
                       <img
@@ -168,12 +189,12 @@ const Guarantee = ({ className = "" }) => {
                 src="/image-29@2x.png"
               />
             </div>
-            <div className="w-[856px] flex flex-col items-start justify-start pt-[42px] px-[76px] pb-[69px] box-border relative gap-[51px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:w-[856px] hover:h-auto hover:flex-col hover:gap-[51px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:pt-[42px] hover:px-[76px] hover:pb-[69px] hover:box-border hover:max-w-full mq1125:pl-[38px] mq1125:pr-[38px] mq1125:box-border mq450:gap-[25px]">
-              <ApplicationBg />
-              <div className="w-[671px] flex flex-col items-start justify-start gap-[28px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:w-[671px] hover:h-auto hover:flex-col hover:gap-[28px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full">
+            <div className="w-[856px]  flex flex-col items-start justify-start pt-[42px] px-[76px] pb-[69px] box-border relative gap-[51px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:w-[856px] hover:h-auto hover:flex-col hover:gap-[51px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:pt-[42px] hover:px-[76px] hover:pb-[69px] hover:box-border hover:max-w-full mq1125:pl-[38px] mq1125:pr-[38px] mq1125:box-border mq450:gap-[25px]">
+              {/* <ApplicationBg /> */}
+              <div className="w-[671px] relative flex flex-col items-start justify-start gap-[28px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:w-[671px] hover:h-auto hover:flex-col hover:gap-[28px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full">
                 <div className="self-stretch flex flex-row items-start justify-center py-0 pr-5 pl-[22px] box-border w-auto h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:self-stretch hover:w-auto hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-center hover:[transform:rotate(0deg)] hover:py-0 hover:pr-5 hover:pl-[22px] hover:box-border">
                   <div className="relative font-extrabold flex w-auto [align-self:unset] h-auto z-[3] hover:font-extrabold hover:font-paragraph-minus-1 hover:text-21xl hover:text-left hover:text-black hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto mq800:text-13xl mq450:text-5xl">
-                    So, listen! if you
+                    So, listen! if you 
                   </div>
                 </div>
                 <div className="self-stretch h-px relative box-border flex w-auto z-[3] border-t-[1px] border-solid border-lightgray border-[1px] hover:flex hover:self-stretch hover:w-auto hover:h-px hover:box-border hover:border-[1px] hover:border-solid hover:border-lightgray" />

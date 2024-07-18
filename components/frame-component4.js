@@ -20,10 +20,10 @@ const FrameComponent4 = ({ className = "" }) => {
                 <span className="[text-decoration:line-through]">
                   Rs.21259/-
                 </span>
-                {` Rs.2999/- and a ‘No questions asked’ money-back guarantee ( `}
+                {` Rs.2999/- and a ‘No questions asked’ money-back guarantee( works better than AI ) `}
               </span>
-              <i className="font-semibold font-paragraph-minus-1">{`works better than AI `}</i>
-              <span className="font-semibold font-paragraph-minus-1">)</span>
+              {/* <i className="font-semibold font-paragraph-minus-1">{``}</i> */}
+              <span className="font-semibold font-paragraph-minus-1"></span>
             </div>
           </div>
         </div>
@@ -39,12 +39,12 @@ const FrameComponent4 = ({ className = "" }) => {
               />
             </div>
           </div>
-          <div className="relative leading-[29px] flex max-w-full w-auto [align-self:unset] h-auto z-[1] hover:text-lgi hover:leading-[29px] hover:text-center hover:text-milk hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:max-w-full">
-            <p className="m-0">
+          <div className="relative leading-[29px] max-w-full w-auto [align-self:unset] h-auto z-[1] hover:text-lgi hover:text-center hover:text-milk  hover:w-auto hover:[align-self:unset] hover:h-auto hover:max-w-full">
+            <p className="text-milk text-center font-inter text-[19px] font-normal leading-[29px]" >
               You get impactful experienced human engineered designs, with
               professional Copywriting.
             </p>
-            <p className="m-0 [text-decoration:underline] font-semibold">
+            <p className="text-milk font-inter text-[19px] font-semibold leading-[29px] underline">
               Exclusive Offer for the First 30 Customers Only – Act Now to
               Secure Your Spot!!
             </p>

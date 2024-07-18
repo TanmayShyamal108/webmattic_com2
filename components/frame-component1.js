@@ -66,13 +66,13 @@ const FrameComponent1 = ({ className = "" }) => {
               />
             </div>
             <div className="absolute top-[112.4px] left-[0px] w-[824px] flex flex-col items-start justify-start pt-[42px] px-[76px] pb-[69px] box-border gap-[59px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:w-[824px] hover:h-auto hover:flex-col hover:gap-[59px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:pt-[42px] hover:px-[76px] hover:pb-[69px] hover:box-border hover:max-w-full">
-              <ApplicationBg propWidth="100%" propRight="0px" />
+              {/* <ApplicationBg propWidth="100%" propRight="0px" /> */}
               <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[23px] box-border gap-[28px] w-auto h-auto [transform:rotate(0deg)] hover:flex hover:self-stretch hover:w-auto hover:h-auto hover:flex-col hover:gap-[28px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:pt-0 hover:px-0 hover:pb-[23px] hover:box-border">
                 <div className="self-stretch flex flex-row items-start justify-center py-0 pr-5 pl-[21px] box-border w-auto h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:self-stretch hover:w-auto hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-center hover:[transform:rotate(0deg)] hover:py-0 hover:pr-5 hover:pl-[21px] hover:box-border">
                   <div className="relative font-extrabold flex w-auto [align-self:unset] h-auto z-[4] hover:font-extrabold hover:font-paragraph-minus-1 hover:text-21xl hover:text-left hover:text-black hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto mq800:text-13xl mq450:text-5xl">
                     One Time Offer Only!
                   </div>
-                  <h1 className="text-red-800"> Tanmay</h1>
+                  
                 </div>
                 <div className="self-stretch h-px relative box-border flex w-auto z-[4] border-t-[1px] border-solid border-lightgray border-[1px] hover:flex hover:self-stretch hover:w-auto hover:h-px hover:box-border hover:border-[1px] hover:border-solid hover:border-lightgray" />
               </div>

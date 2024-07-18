@@ -37,7 +37,7 @@ const FrameComponent = ({ className = "" }) => {
             TCN NUTRITION
           </b>
           <div className="flex flex-row items-start justify-start py-0 pr-0 pl-1 box-border w-auto [align-self:unset] h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:py-0 hover:pr-0 hover:pl-1 hover:box-border">
-            <div className="relative flex w-auto [align-self:unset] h-auto z-[3] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-light-slate hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto">
+            <div className="relative  w-auto [align-self:unset] h-auto z-[3] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-light-slate hover:w-auto hover:[align-self:unset] hover:h-auto">
               <p className="m-0">{`Lorem ipsum dolor sit amet consectetur. Sed morbi odio cras `}</p>
               <p className="m-0">{`et aliquet enim diam massa adipiscing. Enim facilisi laoreet `}</p>
               <p className="m-0">{`consectetur magna eu ullamcorper morbi sit vitae. Posuere `}</p>
@@ -49,7 +49,7 @@ const FrameComponent = ({ className = "" }) => {
             PORTFOLIO
           </div>
           <div className="flex flex-row items-start justify-start py-0 pr-0 pl-1 box-border w-auto [align-self:unset] h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:py-0 hover:pr-0 hover:pl-1 hover:box-border">
-            <div className="relative flex w-auto [align-self:unset] h-auto z-[4] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-light-slate hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto">
+            <div className="relative  w-auto [align-self:unset] h-auto z-[4] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-light-slate hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto">
               <p className="m-0">{`Lorem ipsum dolor sit amet consectetur. Sed morbi odio cras `}</p>
               <p className="m-0">{`et aliquet enim diam massa adipiscing. Enim facilisi laoreet `}</p>
               <p className="m-0">consectetur magna eu.</p>
@@ -85,7 +85,7 @@ const FrameComponent = ({ className = "" }) => {
                     </b>
                   </div>
                   <div className="flex flex-row items-start justify-start py-0 pr-0 pl-1 box-border w-auto [align-self:unset] h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:py-0 hover:pr-0 hover:pl-1 hover:box-border">
-                    <div className="relative flex w-auto [align-self:unset] h-auto z-[1] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-white hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto">
+                    <div className="relative  w-auto [align-self:unset] h-auto z-[1] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-white  hover:w-auto hover:[align-self:unset] hover:h-auto">
                       <p className="m-0">{`Lorem ipsum dolor sit amet consectetur. Sed morbi odio cras `}</p>
                       <p className="m-0">{`et aliquet enim diam massa adipiscing. Enim facilisi laoreet `}</p>
                       <p className="m-0">{`consectetur magna eu ullamcorper morbi sit vitae. Posuere `}</p>
@@ -94,7 +94,7 @@ const FrameComponent = ({ className = "" }) => {
                     </div>
                   </div>
                   <div className="flex flex-row items-start justify-start py-0 pr-0 pl-1 box-border w-auto [align-self:unset] h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:py-0 hover:pr-0 hover:pl-1 hover:box-border">
-                    <div className="relative flex w-auto [align-self:unset] h-auto z-[1] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-white hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto">
+                    <div className="relative  w-auto [align-self:unset] h-auto z-[1] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-white  hover:w-auto hover:[align-self:unset] hover:h-auto">
                       <p className="m-0">{`Lorem ipsum dolor sit amet consectetur. Sed morbi odio cras `}</p>
                       <p className="m-0">{`et aliquet enim diam massa adipiscing. Enim facilisi laoreet `}</p>
                       <p className="m-0">consectetur magna eu.</p>
@@ -133,7 +133,7 @@ const FrameComponent = ({ className = "" }) => {
                       </b>
                     </div>
                     <div className="flex flex-row items-start justify-start py-0 pr-0 pl-1 box-border w-auto [align-self:unset] h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:py-0 hover:pr-0 hover:pl-1 hover:box-border">
-                      <div className="relative flex w-auto [align-self:unset] h-auto z-[1] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-white hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto">
+                      <div className="relative  w-auto [align-self:unset] h-auto z-[1] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-white  hover:w-auto hover:[align-self:unset] hover:h-auto">
                         <p className="m-0">{`Lorem ipsum dolor sit amet consectetur. Sed morbi odio cras `}</p>
                         <p className="m-0">{`et aliquet enim diam massa adipiscing. Enim facilisi laoreet `}</p>
                         <p className="m-0">{`consectetur magna eu ullamcorper morbi sit vitae. Posuere `}</p>
@@ -142,7 +142,7 @@ const FrameComponent = ({ className = "" }) => {
                       </div>
                     </div>
                     <div className="flex flex-row items-start justify-start py-0 pr-0 pl-1 box-border w-auto [align-self:unset] h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:py-0 hover:pr-0 hover:pl-1 hover:box-border">
-                      <div className="relative flex w-auto [align-self:unset] h-auto z-[1] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-white hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto">
+                      <div className="relative  w-auto [align-self:unset] h-auto z-[1] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-white  hover:w-auto hover:[align-self:unset] hover:h-auto">
                         <p className="m-0">{`Lorem ipsum dolor sit amet consectetur. Sed morbi odio cras `}</p>
                         <p className="m-0">{`et aliquet enim diam massa adipiscing. Enim facilisi laoreet `}</p>
                         <p className="m-0">consectetur magna eu.</p>
@@ -180,7 +180,7 @@ const FrameComponent = ({ className = "" }) => {
                       </b>
                     </div>
                     <div className="flex flex-row items-start justify-start py-0 pr-0 pl-1 box-border w-auto [align-self:unset] h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:py-0 hover:pr-0 hover:pl-1 hover:box-border">
-                      <div className="relative flex w-auto [align-self:unset] h-auto z-[1] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-white hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto">
+                      <div className="relative  w-auto [align-self:unset] h-auto z-[1] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-white  hover:w-auto hover:[align-self:unset] hover:h-auto">
                         <p className="m-0">{`Lorem ipsum dolor sit amet consectetur. Sed morbi odio cras `}</p>
                         <p className="m-0">{`et aliquet enim diam massa adipiscing. Enim facilisi laoreet `}</p>
                         <p className="m-0">{`consectetur magna eu ullamcorper morbi sit vitae. Posuere `}</p>
@@ -189,7 +189,7 @@ const FrameComponent = ({ className = "" }) => {
                       </div>
                     </div>
                     <div className="flex flex-row items-start justify-start py-0 pr-0 pl-1 box-border w-auto [align-self:unset] h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:py-0 hover:pr-0 hover:pl-1 hover:box-border">
-                      <div className="relative flex w-auto [align-self:unset] h-auto z-[1] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-white hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto">
+                      <div className="relative w-auto [align-self:unset] h-auto z-[1] hover:font-paragraph-minus-1 hover:text-smi hover:text-left hover:text-white  hover:w-auto hover:[align-self:unset] hover:h-auto">
                         <p className="m-0">{`Lorem ipsum dolor sit amet consectetur. Sed morbi odio cras `}</p>
                         <p className="m-0">{`et aliquet enim diam massa adipiscing. Enim facilisi laoreet `}</p>
                         <p className="m-0">consectetur magna eu.</p>

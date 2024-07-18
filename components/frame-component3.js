@@ -18,7 +18,7 @@ const FrameComponent3 = ({
             src={google}
           />
         </div>
-        <div className="flex-1 relative flex h-auto z-[1] hover:text-smi hover:text-left hover:flex hover:flex-1 hover:h-auto">
+        <div className=" relative  h-auto z-[1] hover:text-smi hover:text-left hover:h-auto">
           <p className="m-0 text-slate-700">
             <b className="[text-decoration:underline]">{googleAdBanners}</b>
           </p>

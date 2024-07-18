@@ -4,7 +4,7 @@ import "./global.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Fragment>
+    <Fragment >
       <Head>
         <title>webmattic_com2</title>
         <meta

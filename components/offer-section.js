@@ -70,19 +70,15 @@ const OfferSection = ({ className = "" }) => {
       </div>
       <div className="self-stretch flex flex-row items-start justify-start pt-0 px-[9px] pb-[38px] box-border max-w-full shrink-0 w-auto h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:self-stretch hover:w-auto hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:pt-0 hover:px-[9px] hover:pb-[38px] hover:box-border hover:max-w-full hover:shrink-0">
         <div className="w-[607px] flex flex-col items-start justify-start gap-[25px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:w-[607px] hover:h-auto hover:flex-col hover:gap-[25px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full">
-          <div className="self-stretch relative leading-[24px] flex w-auto h-auto z-[2] hover:text-base hover:leading-[24px] hover:text-left hover:text-slate-700 hover:flex hover:self-stretch hover:w-auto hover:h-auto">
-            <p className="m-0">
+          <div className="self-stretch relative leading-[24px]  w-auto h-auto z-[2] hover:text-base hover:leading-[24px] hover:text-left hover:text-slate-700 hover:self-stretch hover:w-auto hover:h-auto">
+            <p className="text-slate-700 font-inter text-[16px] font-normal leading-[24px]">
               No matter how good your product is, or how great your marketing
-              campaign is.
+              campaign is. The only thing, that matters is your customers perception.
             </p>
-            <p className="m-0">
-              The only thing, that matters is your customers perception.
-            </p>
+
             <p className="m-0">&nbsp;</p>
             <p className="m-0">
-              <span>The</span>
-              <b className="font-paragraph-minus-1">{` `}</b>
-              <span className="font-paragraph-minus-1">keyword is</span>
+              <span>The keyword is</span>
               <b className="font-paragraph-minus-1 whitespace-pre-wrap">
                 {" "}
                 ‘Perception’.
@@ -108,7 +104,7 @@ const OfferSection = ({ className = "" }) => {
                 So how do you gain an Unfair advanatage ?...
               </div>
             </div>
-            <div className="flex-1 relative text-base leading-[24px] flex max-w-full h-auto z-[2] hover:text-base hover:leading-[24px] hover:text-left hover:text-slate-700 hover:flex hover:flex-1 hover:h-auto hover:max-w-full">
+            <div className="relative text-base leading-[24px]  max-w-full h-auto z-[2] hover:text-base hover:leading-[24px] hover:text-left hover:text-slate-700  hover:h-auto hover:max-w-full">
               <p className="m-0">
                 <span>{`Your ability to influence and shape your customers perception in `}</span>
                 <b className="font-paragraph-minus-1">the first two seconds</b>
@@ -138,7 +134,7 @@ const OfferSection = ({ className = "" }) => {
       />
       <div className="self-stretch flex flex-row items-start justify-start pt-0 px-[9px] pb-6 box-border max-w-full shrink-0 w-auto h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:self-stretch hover:w-auto hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:pt-0 hover:px-[9px] hover:pb-6 hover:box-border hover:max-w-full hover:shrink-0">
         <div className="w-[607px] flex flex-col items-start justify-start gap-[28px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:w-[607px] hover:h-auto hover:flex-col hover:gap-[28px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full">
-          <div className="self-stretch relative leading-[24px] flex w-auto h-auto z-[2] hover:text-base hover:leading-[24px] hover:text-left hover:text-slate-700 hover:flex hover:self-stretch hover:w-auto hover:h-auto">
+          <div className="self-stretch relative leading-[24px]  h-auto z-[2] hover:text-base hover:leading-[24px] hover:text-left hover:text-slate-700 hover:flex hover:self-stretch hover:w-auto hover:h-auto">
             <p className="m-0">
               <span className="font-paragraph-minus-1">
                 We provide you with Visual Storytelling
