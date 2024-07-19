@@ -34,27 +34,6 @@ const CreditPack = ({
         </div>
       </div>
 
-      {/* <div className="w-[421px] flex flex-col items-start justify-start relative max-w-full h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-[421px] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full">
-        <div>
-          <h1>One Time Offer Only!</h1>
-
-        </div>
-        <div>
-          <h1>INR 2999/-</h1>
-
-        </div>
-        <div>
-          <p>10 CUSTOM DESIGNED BANNER PACK</p>
-
-        </div>
-
-        <div className="font-semibold text-white flex w-auto [align-self:unset] h-auto z-[3] hover:font-semibold hover:font-paragraph-minus-1 hover:text-4xl hover:text-center hover:text-white hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto mq450:text-lg">
-          {buyOurCreditPack}
-        </div>
-
-
-
-      </div> */}
 
     </div>
   );

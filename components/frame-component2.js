@@ -141,7 +141,7 @@ const FrameComponent2 = ({ className = "" }) => {
                       </div>
                     </div>
                     <div className="absolute top-[202px] left-[97px] text-lg leading-[26px] text-dark-teal flex w-[609px] h-auto z-[2] hover:text-lg hover:leading-[26px] hover:text-left hover:text-dark-teal hover:flex hover:w-[609px] hover:h-auto">
-                      <p className="m-0">
+                      <div className="m-0">
                         <span className="font-paragraph-minus-1">{`Unlock Unlimited `}</span>
                         <span className="font-semibold font-paragraph-minus-1">
                           “Customer Responses”
@@ -149,7 +149,7 @@ const FrameComponent2 = ({ className = "" }) => {
                         
                         <span>{` with Our `}</span>
                         <p className="m-0">{`25-Credit Pack for `}</p>
-                      </p>
+                      </div>
                       
                     </div>
                     <div className="absolute top-[387px] left-[97px] text-3xl leading-[28px]  h-auto z-[2] text-steelblue hover:text-3xl hover:leading-[28px] hover:text-left hover:h-auto mq450:text-lg mq450:leading-[22px]">
