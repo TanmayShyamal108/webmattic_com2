@@ -6,6 +6,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      width: {
+        '487px': '487px',
+        '600.3px': '600.3px',
+      },
+      height: {
+        '531px': '531px',
+        '632.5px': '632.5px',
+      },
+      rotate: {
+        '-13.903': '-13.903deg',
+      },
       colors: {
         "light-slate": "#edf1ff",
         "slate-700": "#334155",
@@ -129,6 +140,7 @@ module.exports = {
       mq450: {
         raw: "screen and (max-width: 450px)",
       },
+
     },
   },
   corePlugins: {

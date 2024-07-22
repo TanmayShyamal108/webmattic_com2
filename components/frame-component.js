@@ -33,7 +33,7 @@ const FrameComponent = ({ className = "" }) => {
             alt=""
             src="/portfoliobgcircle.svg"
           />
-          <b className="relative text-9xl flex font-bold w-auto [align-self:unset] h-auto z-[3] hover:font-bold hover:font-paragraph-minus-1 hover:text-9xl hover:text-left hover:text-light-slate hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto mq450:text-3xl">
+          <b className="relative text-9xl flex font-bold w-auto [align-self:unset] h-auto z-[4] hover:font-bold hover:font-paragraph-minus-1 hover:text-9xl hover:text-left hover:text-light-slate hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto mq450:text-3xl">
             TCN NUTRITION
           </b>
           <div className="flex flex-row items-start justify-start py-0 pr-0 pl-1 box-border w-auto [align-self:unset] h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:py-0 hover:pr-0 hover:pl-1 hover:box-border">
@@ -45,7 +45,7 @@ const FrameComponent = ({ className = "" }) => {
               <p className="m-0">magna nibh ut et.</p>
             </div>
           </div>
-          <div className="absolute !m-[0] top-[64px] right-[-362px] text-141xl font-black text-danger flex [text-shadow:0px_4px_30px_rgba(0,_0,_0,_0.1)] w-auto [align-self:unset] h-auto z-[3] hover:font-black hover:font-paragraph-minus-1 hover:text-141xl hover:text-left hover:text-danger hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:[text-shadow:0px_4px_30px_rgba(0,_0,_0,_0.1)] mq800:text-45xl mq450:text-21xl">
+          <div className="absolute !m-[0] top-[64px] right-[-362px] text-141xl font-black text-danger flex [text-shadow:0px_4px_30px_rgba(0,_0,_0,_0.1)] w-auto [align-self:unset] h-auto z-[] hover:font-black hover:font-paragraph-minus-1 hover:text-141xl hover:text-left hover:text-danger hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:[text-shadow:0px_4px_30px_rgba(0,_0,_0,_0.1)] mq800:text-45xl mq450:text-21xl">
             PORTFOLIO
           </div>
           <div className="flex flex-row items-start justify-start py-0 pr-0 pl-1 box-border w-auto [align-self:unset] h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-auto hover:[align-self:unset] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:py-0 hover:pr-0 hover:pl-1 hover:box-border">
@@ -62,7 +62,7 @@ const FrameComponent = ({ className = "" }) => {
               src="/vector5.svg"
             />
             <img
-              className="absolute top-[138px] left-[335px] w-[538px] h-[589px] object-contain flex z-[4] hover:flex hover:w-[538px] hover:h-[589px]"
+              className="absolute top-[138px] left-[335px] w-[538px] h-[589px] object-contain flex z-[3] hover:flex hover:w-[538px] hover:h-[589px]"
               alt=""
               src="/untitled-23-1@2x.png"
             />
@@ -70,7 +70,7 @@ const FrameComponent = ({ className = "" }) => {
         </div>
       </div>
       <div className="self-stretch flex flex-row items-start justify-start py-0 pr-[7px] pl-2.5 box-border max-w-full w-auto h-auto gap-[0px] [transform:rotate(0deg)] text-smi text-white hover:flex hover:self-stretch hover:w-auto hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:py-0 hover:pr-[7px] hover:pl-2.5 hover:box-border hover:max-w-full">
-        <div className="flex-1 flex flex-col items-end justify-start gap-[200.5px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:flex-1 hover:h-auto hover:flex-col hover:gap-[200.5px] hover:items-end hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full mq800:gap-[50px] mq450:gap-[25px] mq1325:gap-[100px]">
+        <div className=" flex-1 flex flex-col items-end justify-start gap-[200.5px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:flex-1 hover:h-auto hover:flex-col hover:gap-[200.5px] hover:items-end hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full mq800:gap-[50px] mq450:gap-[25px] mq1325:gap-[100px]">
           <div className="w-[1191px] flex flex-row items-start justify-start relative max-w-full h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-[1191px] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full">
             <div className="h-[823px] w-12 absolute !m-[0] top-[-130.2px] left-[347px] [filter:blur(300px)] rounded-[50%] [background:linear-gradient(180deg,_#7dffe8,_#fff)] [transform:rotate(-25.68deg)] [transform-origin:0_0] flex z-[4] hover:[background:linear-gradient(180deg,_#7dffe8,_#fff)] hover:flex hover:w-12 hover:h-[823px] hover:[transform:rotate(-25.68deg)] hover:[filter:blur(300px)]" />
             <div className="flex-1 [backdrop-filter:blur(100px)] rounded-xl bg-darkslategray-200 flex flex-row items-start justify-start py-[51px] pr-[114px] pl-[115px] box-border gap-[43px] max-w-full h-auto z-[5] hover:bg-darkslategray-200 hover:flex hover:flex-1 hover:h-auto hover:flex-row hover:gap-[43px] hover:items-start hover:justify-start hover:rounded-xl hover:py-[51px] hover:pr-[114px] hover:pl-[115px] hover:box-border hover:[backdrop-filter:blur(100px)] hover:max-w-full mq800:gap-[21px] mq800:py-[33px] mq800:px-7 mq800:box-border mq1325:flex-wrap mq1325:pl-[57px] mq1325:pr-[57px] mq1325:box-border">

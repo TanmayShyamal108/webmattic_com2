@@ -8,7 +8,7 @@ import FrameComponent from "../components/frame-component";
 
 const LPLight = () => {
   return (
-    <div className="h-screen flex items-center justify-center bg-gray-100">
+    <div className="h-full w-full flex items-center justify-center bg-dark-blue">
       <div className="w-full h-[1042px] flex-shrink-0 bg-white shadow-lg">
         <div className="w-[1512px] relative bg-light-slate overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[5954.799999999999px] box-border gap-[1231px] leading-[normal] tracking-[normal] h-auto text-center text-21xl text-milk font-paragraph-minus-1 hover:bg-light-slate hover:flex hover:w-[1512px] hover:h-auto hover:flex-col hover:gap-[1231px] hover:items-start hover:justify-start hover:pt-0 hover:px-0 hover:pb-[5954.799999999999px] hover:box-border hover:leading-[normal] hover:tracking-[normal] mq800:gap-[615px] mq450:gap-[308px]" style={{ fontFamily: "Lora", width: "100%" }}>
           <div className="w-[71px] h-[71px] absolute !m-[0] top-[1060px] left-[240px] rounded-[50%] box-border flex border-[8px] border-solid border-lavender-300 hover:flex hover:w-[71px] hover:h-[71px] hover:box-border hover:border-[8px] hover:border-solid hover:border-lavender-300" />

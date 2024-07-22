@@ -2,28 +2,30 @@ import PropTypes from "prop-types";
 
 const OfferSection = ({ className = "" }) => {
   return (
+
+
     <div
-      className={`w-full h-[1232px] !m-[0] absolute top-[1042px] right-[-1px] bg-lavender-100 overflow-hidden shrink-0 flex flex-col items-end justify-start pt-[57px] pb-[129px] pr-[691px] pl-[99px] box-border gap-[73px] max-w-full z-[1] text-left text-base text-slate-700 font-paragraph-minus-1 hover:bg-lavender-100 hover:flex hover:w-full hover:h-[1232px] hover:flex-col hover:gap-[73px] hover:items-end hover:justify-start hover:pt-[57px] hover:pb-[129px] hover:pr-[691px] hover:pl-[99px] hover:box-border hover:max-w-full mq800:gap-[36px] mq800:pl-[49px] mq800:pr-[345px] mq800:box-border mq450:gap-[18px] mq450:pl-5 mq450:pr-5 mq450:box-border ${className}`}
+      className={`w-full h-[1232px] !m-[0] absolute top-[1042px] right-[-1px] bg-lavender-100 overflow-hidden shrink-0 flex flex-col items-end justify-start pt-[57px] pb-[129px] pr-[691px] pl-[99px] box-border gap-[73px] max-w-full z-[1] text-left text-base text-slate-700 font-paragraph-minus-1  mq800:gap-[36px] mq800:pl-[49px] mq800:pr-[345px] mq800:box-border mq450:gap-[18px] mq450:pl-5 mq450:pr-5 mq450:box-border ${className}`}
     >
-      <div className="self-stretch flex flex-row items-start justify-start max-w-full shrink-0 w-auto h-auto gap-[0px] [transform:rotate(0deg)] text-lgi text-dark-teal hover:flex hover:self-stretch hover:w-auto hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full hover:shrink-0">
-        <div className="w-[659px] flex flex-row items-start justify-start relative max-w-full h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:w-[659px] hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full">
+      <div className="self-stretch flex flex-row items-start justify-start max-w-full shrink-0 w-auto h-auto gap-[0px] [transform:rotate(0deg)] text-lgi text-dark-teal ">
+        <div className="w-[659px] flex flex-row items-start justify-start relative max-w-full h-auto gap-[0px] [transform:rotate(0deg)] ">
           <img
-            className="h-[35.4px] w-[36.6px] absolute !m-[0] top-[119px] left-[-5px] object-contain flex hover:flex hover:w-[36.6px] hover:h-[35.4px]"
+            className="h-[35.4px] w-[36.6px] absolute !m-[0] top-[119px] left-[-5px] object-contain flex "
             alt=""
             src="/hashpattern@2x.png"
           />
-          <div className="h-[25px] w-[25px] absolute !m-[0] bottom-[55px] left-[-12px] rounded-[50%] box-border opacity-[0.1] flex border-[8px] border-solid border-lightskyblue hover:flex hover:w-[25px] hover:h-[25px] hover:box-border hover:border-[8px] hover:border-solid hover:border-lightskyblue" />
-          <div className="h-[1092px] w-[938px] absolute !m-[0] right-[-753px] bottom-[-583px] flex gap-[0px] items-start justify-start [transform:rotate(0deg)] hover:flex hover:w-[938px] hover:h-[1092px] hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)]">
-            <div className="absolute top-[557px] left-[0px] rounded-[50%] bg-lavender-200 w-[365px] h-[365px] flex hover:bg-lavender-200 hover:flex hover:w-[365px] hover:h-[365px]" />
-            <div className="absolute h-[1092px] top-[0px] bottom-[0px] left-[295px] w-[1005px] flex gap-[0px] items-start justify-start [transform:rotate(0deg)] hover:flex hover:w-[1005px] hover:h-[1092px] hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)]">
-              <div className="absolute top-[712px] left-[260px] rounded-[50%] box-border w-[212px] h-[212px] flex border-[1px] border-solid border-white hover:flex hover:w-[212px] hover:h-[212px] hover:box-border hover:border-[1px] hover:border-solid hover:border-white" />
+          <div className="h-[25px] w-[25px] absolute !m-[0] bottom-[55px] left-[-12px] rounded-[50%] box-border opacity-[0.1] flex border-[8px] border-solid border-lightskyblue " />
+          <div className="h-[1092px] w-[938px] absolute !m-[0] right-[-753px] bottom-[-583px]  gap-[0px] items-start justify-start [transform:rotate(0deg)] hidden lg:flex">
+            <div className="absolute top-[557px] left-[0px] rounded-[50%] bg-lavender-200 w-[365px] h-[365px] flex " />
+            <div className="absolute h-[1092px] top-[0px] bottom-[0px] left-[295px] w-[1005px] gap-[0px] items-start justify-start [transform:rotate(0deg)]  ">
+              <div className="absolute top-[712px] left-[260px] rounded-[50%] box-border w-[212px] h-[212px] flex border-[1px] border-solid border-white " />
               <img
-                className="absolute top-[0px] left-[0px] w-full h-full object-cover flex hover:flex hover:w-full hover:h-full"
+                className="absolute top-0 left-0 w-full h-full object-cover"
                 alt=""
                 src="/performanceteam@2x.png"
               />
               <img
-                className="absolute top-[1004px] left-[549px] w-[69.5px] h-[66.5px] overflow-hidden object-contain mix-blend-exclusion flex gap-[0px] z-[2] hover:mix-blend-exclusion hover:flex hover:w-[69.5px] hover:h-[66.5px] hover:gap-[0px]"
+                className="absolute top-[1004px] left-[549px] w-[69.5px] h-[66.5px] overflow-hidden object-contain mix-blend-exclusion flex gap-[0px] z-[2] "
                 alt=""
                 src="/untitled-20-1@2x.png"
               />
@@ -34,6 +36,7 @@ const OfferSection = ({ className = "" }) => {
               alt=""
               src="/star.svg"
             />
+           
             <img
               className="absolute top-[107px] left-[141px] w-[83px] h-[43px] object-contain bg-lavender-200 flex hover:bg-lavender-200 hover:flex hover:w-[83px] hover:h-[43px]"
               alt=""
@@ -95,16 +98,16 @@ const OfferSection = ({ className = "" }) => {
                   src="/vector.svg"
                 />
                 <img
-                  className="absolute h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-contain bg-springgreen flex [filter:blur(300px)] z-[1] hover:bg-springgreen hover:flex hover:w-full hover:h-full hover:[filter:blur(300px)]"
+                  className="absolute h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-contain bg-springgreen flex [filter:blur(300px)] z-[1] "
                   alt=""
                   src="/vector1.svg"
                 />
               </div>
-              <div className="self-stretch relative font-semibold flex w-auto h-auto z-[2] hover:font-semibold hover:font-paragraph-minus-1 hover:text-lgi hover:text-left hover:text-slate-700 hover:flex hover:self-stretch hover:w-auto hover:h-auto">
+              <div className="self-stretch relative font-semibold flex w-auto h-auto z-[2] ">
                 So how do you gain an Unfair advanatage ?...
               </div>
             </div>
-            <div className="relative text-base leading-[24px]  max-w-full h-auto z-[2] hover:text-base hover:leading-[24px] hover:text-left hover:text-slate-700  hover:h-auto hover:max-w-full">
+            <div className="relative text-base leading-[24px]  max-w-full h-auto z-[2] ">
               <p className="m-0">
                 <span>{`Your ability to influence and shape your customers perception in `}</span>
                 <b className="font-paragraph-minus-1">the first two seconds</b>
@@ -132,9 +135,9 @@ const OfferSection = ({ className = "" }) => {
         alt=""
         src="/untitled-15-1@2x.png"
       />
-      <div className="self-stretch flex flex-row items-start justify-start pt-0 px-[9px] pb-6 box-border max-w-full shrink-0 w-auto h-auto gap-[0px] [transform:rotate(0deg)] hover:flex hover:self-stretch hover:w-auto hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:pt-0 hover:px-[9px] hover:pb-6 hover:box-border hover:max-w-full hover:shrink-0">
-        <div className="w-[607px] flex flex-col items-start justify-start gap-[28px] max-w-full h-auto [transform:rotate(0deg)] hover:flex hover:w-[607px] hover:h-auto hover:flex-col hover:gap-[28px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full">
-          <div className="self-stretch relative leading-[24px]  h-auto z-[2] hover:text-base hover:leading-[24px] hover:text-left hover:text-slate-700 hover:flex hover:self-stretch hover:w-auto hover:h-auto">
+      <div className="self-stretch flex flex-row items-start justify-start pt-0 px-[9px] pb-6 box-border max-w-full shrink-0 w-auto h-auto gap-[0px] [transform:rotate(0deg)] ">
+        <div className="w-[607px] flex flex-col items-start justify-start gap-[28px] max-w-full h-auto [transform:rotate(0deg)] ">
+          <div className="self-stretch relative leading-[24px]  h-auto z-[2] ">
             <p className="m-0">
               <span className="font-paragraph-minus-1">
                 We provide you with Visual Storytelling
@@ -164,6 +167,7 @@ const OfferSection = ({ className = "" }) => {
         src="/polygon-4.svg"
       />
     </div>
+
   );
 };
 

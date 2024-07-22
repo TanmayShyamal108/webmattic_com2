@@ -6,14 +6,14 @@ import PropTypes from "prop-types";
 const Guarantee = ({ className = "" }) => {
   return (
     <div
-      className={`w-full !m-[0] absolute top-[8782px] left-[0px] flex flex-row items-start justify-start max-w-full h-auto gap-[0px] [transform:rotate(0deg)] text-left text-base text-slate-700 font-paragraph-minus-1 hover:flex hover:w-full hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full ${className}`}
+      className={`w-full !m-[0] absolute top-[8782px] left-[0px] flex flex-row items-center justify-center max-w-full h-auto gap-[0px] [transform:rotate(0deg)] text-left text-base text-slate-700 font-paragraph-minus-1 hover:flex hover:w-full hover:h-auto hover:flex-row hover:gap-[0px] hover:items-start hover:justify-start hover:[transform:rotate(0deg)] hover:max-w-full ${className}`}
     >
 
       <img
         className="h-[605.7px] w-[503.4px] absolute !m-[0] top-[618px] right-[-149.4px] bg-mistyrose flex [filter:blur(300px)] z-[1] hover:bg-mistyrose hover:flex hover:w-[503.4px] hover:h-[605.7px] hover:[filter:blur(300px)]"
         alt=""
         src="/guarantee-item.svg"
-      />
+      /> 
       <img
         className="h-[605.7px] w-[503.4px] absolute !m-[0] top-[394px] left-[-82px] bg-aliceblue flex [filter:blur(300px)] z-[1] hover:bg-aliceblue hover:flex hover:w-[503.4px] hover:h-[605.7px] hover:[filter:blur(300px)]"
         alt=""
@@ -45,7 +45,7 @@ const Guarantee = ({ className = "" }) => {
             <div className="absolute h-[713px] top-[0px] bottom-[0px] left-[0px] [filter:blur(300px)] rounded-[50%] bg-mediumvioletred-200 w-[713px] flex z-[4] hover:bg-mediumvioletred-200 hover:flex hover:w-[713px] hover:h-[713px] hover:[filter:blur(300px)]" />
           </div>
 
-          <div className="relative leading-[24px]  max-w-full h-auto z-[5] hover:text-base hover:leading-[24px] hover:text-left hover:text-slate-700  hover:h-auto hover:max-w-full">
+          <div className="relative leading-[24px]  max-w-full h-auto z-[5] hover:text-base ">
             <span>{` `}</span>
             <b className="[text-decoration:underline]">
               We don’t believe in templated responses
